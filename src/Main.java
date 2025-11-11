@@ -37,7 +37,6 @@ public class Main {
         title.setHorizontalAlignment(SwingConstants.CENTER);
         title.setForeground(new Color(44, 62, 80));
         root.add(title, BorderLayout.NORTH);
-
         listModel = new DefaultListModel<>();
         taskList = new JList<>(listModel);
         taskList.setCellRenderer(new EnhancedRenderer());
