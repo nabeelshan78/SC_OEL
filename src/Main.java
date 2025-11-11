@@ -55,6 +55,7 @@ public class Main {
         gbc.insets = new Insets(8, 8, 8, 8);
         gbc.fill = GridBagConstraints.HORIZONTAL;
 
+        
         gbc.gridx = 0; gbc.gridy = 0;
         inputPanel.add(new JLabel("Task:"), gbc);
         gbc.gridx = 1;
